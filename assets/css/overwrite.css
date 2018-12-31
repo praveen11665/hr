@@ -1,0 +1,349 @@
+/* Css Style */
+
+.help-block > p
+{
+    color: red;
+    font-size: 11px !important;
+}
+
+.select2
+{
+  display: block !important;
+  width: 100% !important;
+}
+
+.form-check-label i
+{
+    font-size: 30px;
+    color: #0073ff;
+    padding-left: 10px;
+}
+.form-check-label
+{
+    padding:10px 30px;
+    min-width: 140px;
+}
+
+.ae-content-w {
+    background-color: transparent !important;
+}
+.ae-content {
+    padding: 4px !important;
+}
+.content-box
+{
+  /*padding: 0px !important;*/
+}
+.module_operations
+{
+  list-style: none;
+  margin: 20px 30px;
+
+}
+.module_operations>li
+{
+  float: left;
+  -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: auto;
+    /*min-height: 180px;*/
+    margin: 10px 200px 20px 5px;
+}
+.module_operations li a
+{
+  font-weight: bold;
+  text-decoration: none;
+  color:#000;
+  padding: 30px 10px !important;
+}
+.module_operations-submenu
+{
+  margin-top:10px;
+  list-style: none;
+  margin-left: -40px;
+}
+.module_operations-submenu li a
+{
+  font-weight: 200 !important;
+
+}
+.module_operations-submenu li{
+  padding: 8px 10px 8px 0px !important;
+}
+.message-content
+{
+  padding: 6% 10% 8% 2% !important;
+}
+.breadcrumb
+{
+  display: none;
+}
+.dash_padding
+{
+	padding: 30px 50px !important;
+}
+.dash_padding a
+{
+	color: #000;
+}
+
+.avatar-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+   
+.initials {
+  position: relative;
+  top: 12px; /* 25% of parent */
+  font-size: 40px; /* 50% of parent */
+  line-height: 100*0.5px; /* 50% of parent */
+  color: #fff;
+  /*font-family: "Courier New", monospace;*/
+  font-weight: bold;
+}
+
+@mixin avatar($size) {
+    width: $size;
+    height: $size;
+    background-color: $brand-special;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+
+    .initials {
+      position: relative;
+      top: $size*0.25;
+      font-size: $size*0.5;
+      line-height: $size*0.5;
+      color: #fff;
+      font-family: "Courier New", monospace;
+      font-weight: bold;
+    }
+}
+
+.avatar-circle      { @include avatar(100px); }
+.avatar-circle-sm   { @include avatar(50px); }
+.avatar-circle-lg   { @include avatar(250px); }
+
+.table-bordered thead
+{
+  background: #efefef !important;
+}
+
+.table-bordered tfoot
+{
+  background: #fbfbfb !important;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #ddd !important;
+}
+
+.form-control
+{
+  padding: 0.4rem 0.7rem !important;
+  border: 1px solid #cecece !important;
+}
+
+.form-control:focus
+{
+  padding: 0.4rem 0.7rem !important;
+  border: 1px solid #a5a5a5 !important;
+}
+.add-new-popup
+{
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  cursor: pointer !important;
+  border-radius: 5px !important;
+  line-height: 0px !important;
+  margin-left: 5px !important;
+  background: #0061c9 !important;
+  padding: 0px 5px 2px 5px !important;
+}
+.close 
+{
+  float: right;
+  font-size: (@font-size-base * 1.5);
+  font-weight: @close-font-weight;
+  line-height: 1;
+  color: @close-color;
+  text-shadow: @close-text-shadow;
+  .opacity(.2);
+
+  &:hover,
+  &:focus {
+    color: @close-color;
+    text-decoration: none;
+    cursor: pointer;
+    .opacity(.5);
+  }
+
+  // Additional properties for button version
+  // iOS requires the button element instead of an anchor tag.
+  // If you want the anchor version, it requires `href="#"`.
+  // See https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+  button& {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+  }
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%)
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f6f6f6;
+}
+
+.modal-header .close {
+    margin-top: -2px;
+    padding: 0px 6px 1px 8px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+.modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+.modal-footer .btn-group .btn+.btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block+.btn-block {
+    margin-left: 0
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+@media (min-width:768px) {
+    .modal-dialog {
+        width: 950px;
+        margin: 30px auto
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+    }
+    .modal-sm {
+        width: 300px
+    }
+}
+
+@media (min-width:992px) {
+    .modal-lg {
+        width: 900px
+    }
+}

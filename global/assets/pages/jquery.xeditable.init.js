@@ -1,0 +1,8 @@
+/**
+ *  - Responsive Bootstrap 4 Admin Dashboard
+ * 
+ * X editable
+ */
+
+
+$(function(){$.fn.editableform.buttons='<button type="submit" class="btn btn-primary editable-submit btn-sm waves-effect waves-light"><i class="mdi mdi-check"></i></button><button type="button" class="btn btn-light editable-cancel btn-sm waves-effect"><i class="mdi mdi-close"></i></button>',$("#inline-username").editable({type:"text",pk:1,name:"username",title:"Enter username",mode:"inline",inputclass:"form-control-sm"}),$("#inline-firstname").editable({validate:function(e){return""==$.trim(e)?"This field is required":void 0},mode:"inline",inputclass:"form-control-sm"}),$("#inline-sex").editable({prepend:"not selected",mode:"inline",inputclass:"form-control-sm",source:[{value:1,text:"Male"},{value:2,text:"Female"}],display:function(e,t){var n={"":"gray",1:"green",2:"blue"},i=$.grep(t,function(t){return t.value==e});i.length?$(this).text(i[0].text).css("color",n[e]):$(this).empty()}}),$("#inline-group").editable({showbuttons:!1,mode:"inline",inputclass:"form-control-sm"}),$("#inline-status").editable({mode:"inline",inputclass:"form-control-sm"}),$("#inline-dob").editable({mode:"inline",inputclass:"form-control-sm"}),$("#inline-event").editable({placement:"right",mode:"inline",combodate:{firstItem:"name"},inputclass:"form-control-sm"}),$("#inline-comments").editable({showbuttons:"bottom",mode:"inline",inputclass:"form-control-sm"}),$("#inline-fruits").editable({pk:1,limit:3,mode:"inline",inputclass:"form-control-sm",source:[{value:1,text:"Banana"},{value:2,text:"Peach"},{value:3,text:"Apple"},{value:4,text:"Watermelon"},{value:5,text:"Orange"}]})});

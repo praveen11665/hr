@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+body
+{
+	font-family: "Roboto";
+}
+.zcircle
+{
+
+    border-radius: 50%;
+    background: #1565c0;
+    color: #ffffff !important;
+    padding: 5px 10px; 
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.ocircle
+{
+    border-radius: 50%;
+    background: #ea4033;
+    color: #fff;
+    padding: 5px 10px; 
+    font-size: 18px;
+    font-weight: bold;
+}
+.oocircle
+{
+    border-radius: 50%;
+    background: #f19137;
+    color: #fff;
+    padding: 5px 10px; 
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.tcircle
+{
+    border-radius: 50%;
+    background: #50a047;
+    color: #fff;
+    padding: 5px 10px; 
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.zcircle:before
+{
+	content:"Z";
+}
+.ocircle:after
+{
+	content:"O";
+}
+.oocircle:after
+{
+	content:"O";
+}
+.tcircle:after
+{
+	content:"T";
+}
+.one-edge-shadow 
+{
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+}
+.beta
+{
+	
+	background: red;
+	padding: 3px 4px 2px 4px;
+	color: #fff;
+}
+sup
+{
+	vertical-align: super;
+	position: relative; top: -0.5em; font-size: 50%;
+}
+.manufacturing
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
