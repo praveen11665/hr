@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="card-box p-5">
                             <h2 class="text-uppercase text-center pb-4">
                                 <a href="<?php echo base_url(); ?>" class="text-dark">
-									<a href="<?php echo base_url(); ?>" class="manufacturing"><img src="<?php echo base_url('global/assets/images/logo.png'); ?>"></a>
+									<a href="<?php echo base_url(); ?>" class="manufacturing"><img src="<?php echo base_url('global/assets/images/logo.png'); ?>" width="60%"></a>
 
                                     <!--<span class="zcircle one-edge-shadow "></span><span class="ocircle one-edge-shadow "></span><span class="oocircle one-edge-shadow "></span><span class="tcircle one-edge-shadow "></span>
                                     <span class="manufacturing">Manufacturing <sup class="beta">Beta</sup></span>-->
@@ -154,7 +154,7 @@ if( ! isset( $on_hold_message ) )
             </div>
 
             <div class="m-t-40 text-center">
-                <p class="account-copyright">MEP  &copy; <?php echo date('Y'); ?>. All rights reserved.</p>
+                <p class="account-copyright">HR  &copy; <?php echo date('Y'); ?>. All rights reserved.</p>
             </div>
 
         </div>

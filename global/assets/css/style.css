@@ -156,7 +156,8 @@ File: Main Css File
 }
 
 #topnav .navbar-custom {
-  background: linear-gradient(90deg,#0069ff,#1633ff);
+  //background: linear-gradient(90deg,#0069ff,#1633ff);
+  background: linear-gradient(90deg,#0069aa,#0069aa);
 }
 
 #topnav .navbar-toggle {

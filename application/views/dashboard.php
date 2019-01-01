@@ -3,7 +3,7 @@
       <div class="page-title-box">
           <div class="btn-group pull-right">
               <ol class="breadcrumb hide-phone p-0 m-0">
-                  <li class="breadcrumb-item"><a href="<?php echo base_url();?>">MEP</a></li>
+                  <li class="breadcrumb-item"><a href="<?php echo base_url();?>">HR</a></li>
                   <li class="breadcrumb-item active">Dashboard</li>
               </ol>
           </div>

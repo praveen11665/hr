@@ -20,18 +20,16 @@
     </head>
 
     <body>
-        <div class="accountbg" style="background: linear-gradient(90deg,#044db5,#1633ff)">
-            <h1 style="color: #fff; font-size:60px; padding-top: 100px; font-weight: bold; padding-left: 30px; font-size: 75px;
-    letter-spacing: -2px;
-    line-height: 1.12; ">Manufacturing <br />Simplified</h1>
+        <div class="accountbg" style="background: url(<?php echo base_url(); ?>global/assets/images/hr_bg.jpg);">
+            <!--<h1 style="color: #fff; font-size:60px; padding-top: 100px; font-weight: bold; padding-left: 30px; font-size: 75pxletter-spacing: -2px;line-height: 1.12; ">Manufacturing <br />Simplified</h1>
             <p style="color: #fff; padding: 30px 30px; font-size: 20px; width: 60%;">
                 Our cloud computing platform was built with simplicity at the forefront, so managing infrastructure is easy, whether your business is running one virtual machine or ten thousand. DigitalOcean gets out of your way so teams can build, deploy, and scale cloud applications faster and more efficiently.
 
                 <br/ ><br/ >- Product from India by Indian Company
-            </p>
+            </p>-->
 
-        </div>
         <?php echo (isset($content)?$content:''); ?>
+        </div>
         <!-- jQuery  -->
         <script src="<?php echo base_url(); ?>global/assets/js/jquery.min.js"></script>
         <script src="<?php echo base_url(); ?>global/assets/js/popper.min.js"></script>

@@ -182,7 +182,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        MEP  &copy; <?php echo date('Y'); ?>. All rights reserved.
+                        HR  &copy; <?php echo date('Y'); ?>. All rights reserved.
                     </div>
                 </div>
             </div>

@@ -4,8 +4,8 @@
  * English language
  */
 
-$lang['login_page_title'] = 'Login - MEP';
-$lang['login_form_heading'] = 'Login to MEP';
+$lang['login_page_title'] = 'Login - HR';
+$lang['login_form_heading'] = 'Login to HR';
 $lang['login_username']		= 'Username';
 $lang['login_password']		= 'Password';
 $lang['login_remember']		= 'Remember Me';
@@ -17,7 +17,7 @@ $lang['recover_page_title'] = 'Recover Password';
 $lang['recover_form_heading'] = 'Account Recovery';
 $lang['recover_email_label'] = 'Enter e-mail associated with your account';
 $lang['recover_btn_text']		= 'Send email';
-$lang['dashboard_title']	= 'MEP - Dashboard';
+$lang['dashboard_title']	= 'HR - Dashboard';
 $lang['profile_title']		= 'Profile';
 $lang['logout_sentence']	= 'You have successfully logged out.';
 $lang['cant_access']	='Can\'t access your account?';
