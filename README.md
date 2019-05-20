@@ -1,2 +1,2 @@
 # hr
-HR Module
+ERP HR Module
